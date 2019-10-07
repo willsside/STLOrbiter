@@ -1,8 +1,11 @@
 # STLOrbiter
 An orbit propagator for donuts, simple shapes, and custom STLs.
 
+
 William Jun
+
 Last Revised: 10/7/19
+
 
 This app sets up and propagates known stable or custom orbits around donuts, simple shapes, or custom STLs. The custom STL function requires the Parallel Computing Toolbox and a supported GPU. The Toolbox is free for Georgia Tech students. (https://www.mathworks.com/products/parallel-computing.html)
 
