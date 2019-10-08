@@ -55,3 +55,9 @@ The orbits are propagated using ODE45 and some carefully crafted orbit dynamics 
   - If you do fall into the shape, the app will slow down. This is because the propagator is dealing with much larger values of acceleration while still trying to be accurate within 1e-12. On the flip side, this means that the propagator will speed up when farther away from the shape. This is a bit unintuitive becuase it goes against what would really happen (speed up at periapsis and slow down at apoapsis). Therefore, keep in mind that the time aspect of the app may be warped. There is a tail that follows the orbiter and by default shows the past 20 time increments (increment size set in the app). This may provide a better understanding of time throughout the orbit. 
   - If you start with a large enough velocity to achieve escape velocity, the orbiter will just fly off at a near straight line. Try reducing your initial velocity
   - The "Stop (Hold Down)" button is sometimes unresponsive when the propagator is too busy chugging away. Try clicking and holding for 1 second multiple times. If it is still propagating, go ahead and close the app and restart.
+
+## ------- FUN ORBITS TO TRY -------
+  - Simple STL : Cone
+      r = [200;-500;400]
+      v = [0;30;0]
+  - 
