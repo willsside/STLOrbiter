@@ -58,6 +58,6 @@ The orbits are propagated using ODE45 and some carefully crafted orbit dynamics 
 
 ## ------- FUN ORBITS TO TRY -------
   - Simple STL : Cone
-      r = [200;-500;400]
-      v = [0;30;0]
+      - r = [200;-500;400]
+      - v = [0;30;0]
   - 
